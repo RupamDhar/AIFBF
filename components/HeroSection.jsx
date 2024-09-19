@@ -17,7 +17,9 @@ const HeroSection = () => {
 
                 <div className="flex justify-centercontact-btn text-center px-5 py-2 text-white rounded-xl font-bold bg-[#387F39] min-w-[160px] leading-[26px]">
                     <button className='contact-btn'>
-                        <div className="text-center w-full">Contact Us</div>
+                        <div className="text-center w-full">
+                            <a href="/contactus">Contact Us</a>
+                        </div>
                     </button>
                 </div>
 
