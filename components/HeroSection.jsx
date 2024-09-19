@@ -3,16 +3,16 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className='hero-section flex sm:flex-col p-[80px_25px_50px] sm:p-[50px_25px]' data-aos="fade-up">
+        <div className='hero-section flex sm-max:flex-col p-[80px_25px_50px] sm-max:p-[50px_25px]' data-aos="fade-up">
             <div className="hero-content flex flex-col justify-center items-center gap-5">
                 <div className="hero-info w-full h-fit">
-                    <div className="hero-sub-header text-[20px] sm:text-[18px] pb-3 text-[#A2CA71] text-center">
+                    <div className="hero-sub-header text-[20px] sm-max:text-[18px] pb-3 text-[#A2CA71] text-center">
                         All India Financial Borrowers Federations
                     </div>
-                    <div className="hero-header text-[45px] sm:text-[35px] leading-[52px] font-semibold text-[#387F39] text-center">
+                    <div className="hero-header text-[45px] sm-max:text-[35px] leading-[52px] font-semibold text-[#387F39] text-center">
                         Bridging Gaps in Financial <br /> Inclusivity and Advocacy
                     </div>
-                    <p className='text-[#696e77] text-center pt-[15px] sm:text-[16px]'> AIFBF is a well conceived idea to bring in the actionable insights to strengthen the  financial borrowers and offering the lawful solutions for running the business smoothly without any hurdles.With a vision for creating a transform India AIFBF acts a catalyst and intermediary between policy makers and the government. With forward looking approach AIFBF is very proactive and aggressive in its approach in empowering for a better future</p>
+                    <p className='text-[#696e77] text-center pt-[15px] sm-max:text-[16px]'> AIFBF is a well conceived idea to bring in the actionable insights to strengthen the  financial borrowers and offering the lawful solutions for running the business smoothly without any hurdles.With a vision for creating a transform India AIFBF acts a catalyst and intermediary between policy makers and the government. With forward looking approach AIFBF is very proactive and aggressive in its approach in empowering for a better future</p>
                 </div>
 
                 <div className="flex justify-centercontact-btn text-center px-5 py-2 text-white rounded-xl font-bold bg-[#387F39] min-w-[160px] leading-[26px]">
@@ -21,7 +21,7 @@ const HeroSection = () => {
                     </button>
                 </div>
 
-                <ul class="list_box flex flex-wrap justify-center sm:w-full">
+                <ul class="list_box flex flex-wrap justify-center sm-max:w-full">
                     <li className='w-fit mb-[15px] p-[5px]'>
                         <div class="flex gap-2 w-fit">
 
@@ -110,7 +110,7 @@ const HeroSection = () => {
                 </ul>
             </div>
 
-            <img src="img.png" className='h-[735px] w-1/2 sm:h-auto sm:w-full' alt="" />
+            <img src="img.png" className='h-[735px] w-1/2 sm-max:h-auto sm-max:w-full' alt="" />
         </div>
     )
 }

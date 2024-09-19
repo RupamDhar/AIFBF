@@ -24,14 +24,14 @@ const sectorData = [
 
 const Sectors = () => {
     return (
-        <div className='sectors py-20 px-[50px] sm:px-[20px]' data-aos="fade-up">
-            <div className="sectors-sub-heading text-center text-[#A2CA71] text-[20px] pb-3 sm:text-[15px]">
+        <div className='sectors py-20 px-[50px] sm-max:px-[20px]' data-aos="fade-up">
+            <div className="sectors-sub-heading text-center text-[#A2CA71] text-[20px] pb-3 sm-max:text-[15px]">
                 Empowering Growth Across Key Industries
             </div>
-            <div className="sectors-heading text-center text-[#387F39] text-[45px] pb-4 font-bold sm:text-[35px]">
+            <div className="sectors-heading text-center text-[#387F39] text-[45px] pb-4 font-bold sm-max:text-[35px]">
                 Sectors We Serve
             </div>
-            <div className="sectors-info text-center text-[#696e77] text-[18px] pb-4 sm:text-[15px]">
+            <div className="sectors-info text-center text-[#696e77] text-[18px] pb-4 sm-max:text-[15px]">
                 Our dynamic sectors cater to the diverse needs of our members and contribute significantly to the GDP
             </div>
             <Swiper

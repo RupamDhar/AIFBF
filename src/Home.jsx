@@ -19,14 +19,14 @@ function Home() {
   })
 
   return (
-    <div className='main w-screen box-border overflow-hidden sm:w-full'>
+    <div className='main w-screen box-border overflow-hidden sm-max:w-full'>
       <Navbar />
 
       <HeroSection />
 
       <div className="objectives flex flex-col justify-center pt-20 pb-20">
-        <span className="obj-header text-[20px] text-[#A2CA71] text-center pb-2 sm:text-[18px]">OUR OBJECTIVES</span>
-        <span className="obj-text text-[30px] text-[#387F39] font-bold text-center sm:text-[25px] sm:px-4">AIFBF has the following positive objects designed to meet the progressive <br />agenda and are as under
+        <span className="obj-header text-[20px] text-[#A2CA71] text-center pb-2 sm-max:text-[18px]">OUR OBJECTIVES</span>
+        <span className="obj-text text-[30px] text-[#387F39] font-bold text-center sm-max:text-[25px] sm-max:px-4">AIFBF has the following positive objects designed to meet the progressive <br />agenda and are as under
         </span>
       </div>
 
@@ -44,19 +44,19 @@ function Home() {
           {/* Company Info */}
           <div className="mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4 text-center">AIFBF</h3>
-            <p className="mb-2 text-center sm:text-[15px]">Your trusted partner in business facilitation.</p>
+            <p className="mb-2 text-center sm-max:text-[15px]">Your trusted partner in business facilitation.</p>
             <p className="text-sm text-center">Working Hours: Sun-Sat, 09am-5pm</p>
           </div>
 
           {/* Contact Info */}
           <div className="mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4 text-center">Contact Us</h3>
-            <p className="mb-2 text-center sm:text-[15px]">
+            <p className="mb-2 text-center sm-max:text-[15px]">
               <a href="tel:+91 9741134001" className="hover:text-[#F6E96B]">
                 <span className="font-semibold">Call:</span> +91 9741134001
               </a>
             </p>
-            <p className="mb-2 text-center sm:text-[15px]">
+            <p className="mb-2 text-center sm-max:text-[15px]">
               <a href="mailto:info@aifbf.com" className="hover:text-[#F6E96B]">
                 <span className="font-semibold">Mail:</span> info@aifbf.com
               </a>
@@ -66,7 +66,7 @@ function Home() {
           {/* Social Links */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-center">Follow Us</h3>
-            <ul className="flex space-x-4 justify-center sm:gap-2">
+            <ul className="flex space-x-4 justify-center sm-max:gap-2">
               <li>
                 <a href="#" target="_blank" rel="nofollow" className="bg-[#F6E96B] text-[#387F39] h-10 w-10 flex items-center justify-center rounded-full hover:bg-white transition-colors duration-300 ml-4">
                   <i className="fab fa-facebook-f"></i>
