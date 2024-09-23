@@ -8,7 +8,7 @@ const AboutUs = () => {
 
             <div className="aboutus-content w-[50%] sm-max:w-full">
                 <div className="aboutus-info">
-                    <div className="aboutus-sub-header text-[20px] text-[#A2CA71] text-center sm-max:text-[15px] sm-max:text-[15px]">
+                    <div className="aboutus-sub-header text-[20px] text-[#FF885B] text-center sm-max:text-[15px] sm-max:text-[15px]">
                         About AIFBF
                     </div>
                     <div className="aboutus-header text-[45px] text-[#387F39] font-bold text-center sm-max:text-[35px]">

@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
   padding: 1px 15px;
   border-radius: 10px;
   color: black;
-  background-color: #F6E96B;
+  background-color: #FF885B;
 }
 
 .d-inline-block {
@@ -48,7 +48,7 @@ body::-webkit-scrollbar {
 }
 
 .d-inline-block li {
-  background-color: #F6E96B;
+  background-color: #FF885B;
   color: black;
   height: 35px;
   width: 35px;
@@ -87,9 +87,9 @@ body::-webkit-scrollbar {
   height: 45px;
   width: 170px;
   border-radius: 12px;
-  color: black;
+  color: white;
   font-weight: 600;
-  background-color: #F6E96B;
+  background-color: #FF885B;
 }
 
 .hamburger {

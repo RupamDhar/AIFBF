@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <>
             <div className="navbar">
-                <img src="/aifbf.png" alt="" />
+                <img src="/logo.jpg" alt="" />
 
                 <div className="hamburger" onClick={toggleMenu}>
                     <div></div>
