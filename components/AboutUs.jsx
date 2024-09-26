@@ -17,9 +17,9 @@ const AboutUs = () => {
                     <p className='pt-4 text-[18px] text-[#696e77] text-center sm-max:text-[15px]' style={{ lineHeight: '1.4' }}> AIFBF is a well conceived idea to bring in the actionable insights to strengthen the  financial borrowers and offering the lawful solutions for running the business smoothly without any hurdles.With a vision for creating a transform India AIFBF acts a catalyst and intermediary between policy makers and the government. With forward looking approach AIFBF is very proactive and aggressive in its approach in empowering for a better future</p>
                 </div>
 
-                <a href="/contactus">
+                <a href="/aboutus">
                     <div className="flex justify-center mt-5 py-4 text-white rounded-xl font-bold bg-[#387F39] min-w-[160px]">
-                        <button className='contact-btn'>Contact Us</button>
+                        <button className='contact-btn'>Read more</button>
                     </div>
                 </a>
             </div>
