@@ -1,16 +1,18 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { contactbanner, whatsapp, phone, contactus, contactusdetails, gmail, mappointer, instagram, linkedin, twitter, facebook } from '../assets'; 
+import { contactbanner, whatsapp, phone, contactus, contactusdetails, gmail, mappointer, instagram, linkedin, twitter, facebook } from '../assets';
 import { containerClasses, headingClasses, gridClasses, inputClasses, buttonClasses } from './ContactFormUtils.js';
+import Navbar from '../../components/Navbar.jsx';
 
 const ContactUs = () => {
   useEffect(() => {
     AOS.init({ duration: 2500 });
   }, []);
-  
+
   return (
     <>
+      <Navbar />
       <div
         className={containerClasses}
         style={{
@@ -27,7 +29,7 @@ const ContactUs = () => {
           </span>
         </h1>
       </div>
-      
+
       <div className="min-h-screen flex items-center justify-center bg-white">
         <div className="flex flex-col lg:flex-row w-full max-w-7xl mx-auto p-4 lg:p-8 space-y-8 lg:space-y-0 lg:space-x-32">
           {/* Form */}
@@ -66,20 +68,20 @@ const ContactUs = () => {
               </div>
             </form>
           </div>
-          
+
           {/* Contact Information */}
           <div className="w-full lg:w-1/2">
             <img src={contactus} alt="" className="w-full h-auto rounded-lg" />
           </div>
         </div>
       </div>
-      
+
       <div className="min-h-screen flex items-center justify-center bg-white">
         <div className="flex flex-col lg:flex-row w-full max-w-7xl mx-auto p-4 lg:p-8 space-y-8 lg:space-y-0 lg:space-x-32">
 
-        {/* Image */}
-        <div className="w-full lg:w-2/3">
-            <img src={contactusdetails} alt=""  className="w-full h-auto rounded-lg" />
+          {/* Image */}
+          <div className="w-full lg:w-2/3">
+            <img src={contactusdetails} alt="" className="w-full h-auto rounded-lg" />
           </div>
 
           {/* Contact Information */}
